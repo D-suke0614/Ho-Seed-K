@@ -83,7 +83,18 @@
                 <div class="title m-b-md">
                     Laravel
                 </div>
-
+<!-- Welcomeコンポーネント -->
+        <!-- Scripts -->
+        <script src="{{ asset('js/app.js') }}" defer></script>
+    </head>
+    <body>
+        <div id="app">
+            <welcome-component />
+            
+        </div>
+        <a href="/try">ページ遷移</a>
+    </body>
+    
                 <div class="links">
                     <a href="https://laravel.com/docs">Docs</a>
                     <a href="https://laracasts.com">Laracasts</a>
